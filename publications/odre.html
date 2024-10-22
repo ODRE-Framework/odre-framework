@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ODRE Framework</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://github.com/helio-ecosystem" target="_blank">
+            Helio
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Open Digital Rights Enforcement Framework (ODRE): from descriptive to enforceable policies</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/andrea-cimmino-arriaga-64b6b9112" target="_blank">Andrea Cimmino</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/juan-cano-benito" target="_blank">Juan Cano-Benito</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="http://www.garcia-castro.com/" target="_blank">Raúl García-Castro</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup><a href="https://oeg.fi.upm.es/" target="_blank">Ontology Engineering Group</a>, <a href="https://www.upm.es/" target="_blank">Universidad Politécnica de Madrid</a></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2409.17602" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2409.17602" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/ODRE-Framework/odre-java" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Java Code</span>
+                  </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/ODRE-Framework/odre-python" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Python Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://zenodo.org/records/13735971" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-building"></i>
+                  </span>
+                  <span>Zenodo</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            From centralised platforms to decentralised ecosystems, like Data Spaces, sharing data has become a paramount challenge. For this reason, the definition of data usage policies has become crucial in these domains, highlighting the necessity of effective policy enforcement mechanisms. The Open Digital Rights Language (ODRL) is a W3C standard ontology designed to describe data usage policies, however, it lacks built-in enforcement capabilities, limiting its practical application. 
+          </p>
+          <p>
+            This paper introduces the Open Digital Rights Enforcement (ODRE) framework, whose goal is to provide ODRL with enforcement capabilities. The ODRE framework proposes a novel approach to express ODRL policies that integrates the descriptive ontology terms of ODRL with other languages that allow behaviour specification, such as dynamic data handling or function evaluation. The framework includes an enforcement algorithm for ODRL policies and two open-source implementations in Python and Java. The ODRE framework is also designed to support future extensions of ODRL to specific domain scenarios. In addition, current limitations of ODRE, ODRL, and current challenges are reported. Finally, to demonstrate the enforcement capabilities of the implementations, their performance, and their extensibility features, several experiments have been carried out with positive results.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section" id="classification">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Classification of ODRL enforceable policies</h2>
+    <div class="content has-text-justified">
+      <p>
+        The classification of ODRL enforceable policies revolves around the language used to express them. ODRL policies primarily define usage rules, actions, and constraints for data usage. To make these policies enforceable, they are classified into multiple levels based on how they handle dynamic data or complex scenarios. The simplest form, the ∅-Level, relies on descriptive policies that can be interpreted but not enforced. In contrast, A-Level policies are enforceable, defining actions and constraints with interpretable terms. B1-Level policies introduce variables that need to be interpolated dynamically, while B2-Level policies incorporate templated languages for greater flexibility. Finally, C-Level policies handle complex behaviors and extend enforceability with coded languages, like Python or Java.
+      </p>
+      <p>
+        Each level in this classification system corresponds to a degree of expressiveness, where ∅-Level policies are purely descriptive and C-Level policies allow for advanced behavior through dynamic inputs or external data sources. By classifying policies this way, it becomes easier to adapt ODRL to specific use cases that require complex data handling, like geospatial constraints or time-based access restrictions.
+      </p>
+      <p>
+        This classification system also provides critical extension points, enabling practitioners to modify and adapt ODRL policies to new domains without changing the core descriptive language. By adding new ontology terms or extending the interpreted language, new functions can be integrated seamlessly, making the policy framework adaptable for different domains.
+      </p>
+    </div>
+    <img src="static/images/policies.jpg" height="100%">
+    ODRL enforcement hierarchy, languages, and extension points
+  </div>
+</section>
+
+<section class="section" id="algorithm">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Enforcement algorithm</h2>
+    <div class="content has-text-justified">
+      <p>
+        The enforcement algorithm is designed to check if the conditions in ODRL policies are met and, if applicable, enforce the related actions. The algorithm begins by reducing policies from higher levels (B1, B2, C) into the A-Level, which is enforceable. For instance, policies containing dynamic variables or external data inputs must first be processed to replace placeholders with actual values. Once reduced, the algorithm examines the policy's constraints and translates them into an interpreted language (e.g., Python or SPARQL).
+      </p>
+      <p>
+        After processing, the algorithm evaluates whether the conditions (constraints) hold true. If they do, the associated action is performed. This action could range from granting data access to invoking an API. If the policy’s constraints cannot be met, the action is deferred to a third-party for enforcement, ensuring flexibility in implementation. By generalizing this process, the ODRE framework ensures that ODRL policies can be enforced in real-time scenarios, adapting dynamically to different inputs.
+      </p>
+    </div>
+    <img src="static/images/algorithm.jpg" height="100%">
+  </div>
+</section>
+
+
+<section class="section" id="performance">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Performance</h2>
+    <div class="content has-text-justified">
+      <p>
+        To evaluate the performance of the ODRE framework, two implementations were developed: one in Python and another in Java. These implementations were tested across 24 different ODRL policies, which examined a variety of enforcement scenarios, from simple permission checks to complex geospatial and temporal constraints. The results demonstrated that both implementations could enforce policies within 0.03 seconds.
+      </p>
+      <p>
+        Notably, the Java implementation generally outperformed the Python version, except in cases where external API requests were involved. This is due to Java’s more optimized handling of streams for network requests. The experiments validated the framework's ability to enforce policies in near-real-time, making it suitable for applications like data marketplaces or federated data analytics where fast decision-making is crucial. Moreover, the performance tests confirm the framework's extensibility, as new policies and ontology terms can be integrated without significant overhead.
+      </p>
+      </div>
+        <img src="static/images/results.jpg" height="100%">
+        ODRL enforcement duration in seconds for Python and Java implementations
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{cimmino2024opendigitalrightsenforcement,
+      title={Open Digital Rights Enforcement Framework (ODRE): from descriptive to enforceable policies}, 
+      author={Andrea Cimmino and Juan Cano-Benito and Raúl García-Castro},
+      year={2024},
+      eprint={2409.17602},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2409.17602}, 
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website is borrowed from the <a href="https://github.com/nerfies/nerfies.github.io" target="_blank">source code</a> of the Nerfies website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
