@@ -6,14 +6,27 @@ This is the branch for the ODRE project website.
 ### Publications
 
 ```bibtex
-@misc{cimmino2024opendigitalrightsenforcement,
-      title={Open Digital Rights Enforcement Framework (ODRE): from descriptive to enforceable policies}, 
-      author={Andrea Cimmino and Juan Cano-Benito and Raúl García-Castro},
-      year={2024},
-      eprint={2409.17602},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2409.17602}, 
+
+@inproceedings{martin2025odre,
+  title={ODRE Policy Directory Service: A Trust-Based ODRL Service for Decentralised and Policy-Aware Ecosystems},
+  author={Mart{\'\i}n-N{\'u}{\~n}ez, Luc{\'\i}a and Cimmino, Andrea and Garc{\'\i}a-Castro, Ra{\'u}l},
+  year={2025},
+  booktitle={ODRL and Beyond: Practical Applications and Challenges for Policy-base Access and Usage Control. OPAL 2025 Co-located with
+the Extended Semantic Web Conference},
+  pages={1--15},
+
+}
+
+@article{CIMMINO2025104282,
+      title = {Open Digital Rights Enforcement framework (ODRE): From descriptive to enforceable policies},
+      journal = {Computers & Security},
+      volume = {150},
+      pages = {104282},
+      year = {2025},
+      issn = {0167-4048},
+      doi = {https://doi.org/10.1016/j.cose.2024.104282},
+      url = {https://www.sciencedirect.com/science/article/pii/S0167404824005881},
+      author = {Andrea Cimmino and Juan Cano-Benito and Raúl García-Castro}
 }
 
 @inproceedings{cano2024towards,
