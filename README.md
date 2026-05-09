@@ -20,14 +20,16 @@ For enforcing ODRL policices we count with two implementations developed in [Pyt
 ### Publications
 
 ```bibtex
-@misc{cimmino2024opendigitalrightsenforcement,
-      title={Open Digital Rights Enforcement Framework (ODRE): from descriptive to enforceable policies}, 
-      author={Andrea Cimmino and Juan Cano-Benito and Raúl García-Castro},
-      year={2024},
-      eprint={2409.17602},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2409.17602}, 
+@article{CIMMINO2025104282,
+ title = {Open Digital Rights Enforcement framework (ODRE): From descriptive to enforceable policies},
+ journal = {Computers & Security},
+ volume = {150},
+ pages = {104282},
+ year = {2025},
+ issn = {0167-4048},
+ doi = {https://doi.org/10.1016/j.cose.2024.104282},
+ url = {https://www.sciencedirect.com/science/article/pii/S0167404824005881},
+ author = {Andrea Cimmino and Juan Cano-Benito and Raúl García-Castro}
 }
 
 @inproceedings{cano2024towards,
@@ -53,6 +55,9 @@ For enforcing ODRL policices we count with two implementations developed in [Pyt
   year={2023}
 }
 ```
+
+> [ESWC 2026 Tutorial: Policy Evaluation and Enforcement on the Web with ODRL](https://potr-knows.github.io/odrl-tutorial/) / Access: [public available resources](https://github.com/ODRE-Framework/eswc-2026-tutorial)
+
 
 ### Acknowledgements
 
